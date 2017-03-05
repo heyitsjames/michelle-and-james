@@ -30,7 +30,9 @@
         src.attr('src', sourceFile);
         var video = src.parent()[0];
         video.load();
-        video.play();
+        video.oncanplaythrough = function() {
+          video.play();
+        }
       });
 
     // Mobile?

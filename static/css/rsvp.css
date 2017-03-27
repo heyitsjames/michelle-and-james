@@ -235,6 +235,9 @@ body {
     color: #f3d1d9; }
 
 @media (max-width: 615px) {
+  .confirmed p {
+    font-size: 20px !important; }
+
   .container {
     margin: 0; }
     .container .login-card {

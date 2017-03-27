@@ -307,6 +307,20 @@ body {
       &:before {
         width: 0px;
       }
+      .input-group {
+        div.placeholder {
+          left: 20px !important;
+        }
+        div.placeholder-text {
+          padding-left: 20px !important;
+        }
+        .radio-container {
+          padding-left: 20px;
+        }
+        &__first-name:before, &__last-name:before {
+          left: 20px !important;
+        }
+      }
     }
   }
 }

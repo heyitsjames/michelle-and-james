@@ -240,6 +240,14 @@ body {
     .container .login-card {
       width: 100%; }
       .container .login-card:before {
-        width: 0px; } }
+        width: 0px; }
+      .container .login-card .input-group div.placeholder {
+        left: 20px !important; }
+      .container .login-card .input-group div.placeholder-text {
+        padding-left: 20px !important; }
+      .container .login-card .input-group .radio-container {
+        padding-left: 20px; }
+      .container .login-card .input-group__first-name:before, .container .login-card .input-group__last-name:before {
+        left: 20px !important; } }
 
 /*# sourceMappingURL=rsvp.css.map */

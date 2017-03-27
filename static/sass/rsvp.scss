@@ -298,3 +298,15 @@ body {
     color: $pink;
   }
 }
+
+@media (max-width: 615px) {
+  .container {
+    margin: 0;
+    .login-card {
+      width: 100%;
+      &:before {
+        width: 0px;
+      }
+    }
+  }
+}

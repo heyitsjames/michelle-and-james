@@ -234,4 +234,12 @@ body {
     font-size: 200px;
     color: #f3d1d9; }
 
+@media (max-width: 615px) {
+  .container {
+    margin: 0; }
+    .container .login-card {
+      width: 100%; }
+      .container .login-card:before {
+        width: 0px; } }
+
 /*# sourceMappingURL=rsvp.css.map */

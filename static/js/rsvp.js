@@ -48,7 +48,7 @@
         $.ajax({
           method: 'POST',
           contentType: 'application/json',
-          url: 'http://localhost:4001/api/rsvps',
+          url: 'https://protected-cliffs-72161.herokuapp.com/api/rsvps',
           data: JSON.stringify(data),
         })
         .done(function(data, statusText, xhr) {
